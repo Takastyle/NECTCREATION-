@@ -886,6 +886,15 @@ iframe {
   }
 }
 
+@media(max-width:1024px) {
+  #flow .row {
+    max-width: 830px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 80px;
+  }
+}
+
 .flow__items_firstline,
 .flow__items_secondline {
   display: flex;
