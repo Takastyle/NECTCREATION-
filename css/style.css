@@ -909,6 +909,12 @@ iframe {
   width: 100%;
 }
 
+@media(max-width:1024px){
+  .flow__inner{
+    max-width: 200px;
+  }
+}
+
 .flow__inner svg {
   margin-top: 70px;
   width: 50px;
